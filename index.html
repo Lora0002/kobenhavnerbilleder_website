@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Københavnerbilleder – en guide til hipster foto af Sten Simons.">
+  <title>Københavnerbilleder – Sten Simons</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <a class="logo" href="#top">KØBENHAVNERBILLEDER</a>
+    <button class="menu-toggle" aria-label="Åbn menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#bogen">Bogen</a>
+      <a href="#kapitler">Kapitler</a>
+      <a href="#forfatteren">Forfatteren</a>
+      <a class="nav-buy" href="#koeb">Køb nu</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow"></p>
+        <h1>Københavnerbilleder<br><em>– en guide til hipster foto</em></h1>
+        <p class="author-line">af Sten Simons</p>
+
+        <form class="sample-form" onsubmit="event.preventDefault(); alert('Tak! Prøvekapitlet bliver sendt til din mail.');">
+          <label for="email">Hent prøvekapitel</label>
+          <div class="form-row">
+            <input id="email" type="email" placeholder="Din e-mail" required>
+            <button type="submit">Hent prøvekapitel</button>
+          </div>
+          <p class="consent">Jeg accepterer at modtage prøvekapitlet og modtage markedsføring om bogen ved at downloade prøvekapitlet.</p>
+        </form>
+      </div>
+
+      <div class="hero-book">
+     
+        <img src="images/foraar-med-et-agfa-le-box-2021-17.jpg" alt="Københavnerbilleder af Sten Simons">
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="two-col section-pad" id="bogen">
+      <div class="text-card">
+        <p class="section-kicker"></p>
+        <h2>Om bogen</h2>
+        <p>
+          Københavnerbilleder er de danske streetfotografers bibel: Det er en fusion mellem et kunstværk og en lærebog.
+          Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter.
+          Alt sammen krydret med masser af inspirerende fotos. God læselyst!
+        </p>
+      </div>
+
+      <div class="text-card data-card">
+        <p class="section-kicker"></p>
+        <h2>Fakta</h2>
+        <dl>
+          <div><dt>Titel</dt><dd>Københavnerbilleder – en guide til hipster foto</dd></div>
+          <div><dt>Forfatter</dt><dd>Sten Simons</dd></div>
+          <div><dt>Antal sider</dt><dd>344</dd></div>
+          <div><dt>Forlag</dt><dd>Mellem Linjerne</dd></div>
+          <div><dt>ISBN</dt><dd>987-6-987654-32-1</dd></div>
+          <div><dt>Pris</dt><dd>399.-</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- BOOK IMAGES -->
+    <section class="book-images section-pad">
+      <div class="section-heading">
+        <p class="section-kicker"></p>
+        <h2>Billeder af bogen</h2>
+      </div>
+      <div class="book-grid">
+        <figure><img src="images/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="Forsiden af Københavnerbilleder"></figure>
+        <figure><img src="images/agfa-genanvendeligt-kamera-35mm-5.jpg" alt="Københavnerbilleder set oppefra"></figure>
+        <figure><img src="images/agfa-genanvendeligt-kamera-35mm-8.jpg" alt="Åben bog med Københavnerbilleder"></figure>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews section-pad">
+      <div class="section-heading">
+        <p class="section-kicker"></p>
+        <h2>Anmeldelser af bogen</h2>
+      </div>
+
+      <div class="review-grid">
+        <article class="review">
+          <div class="stars">★★★★★☆</div>
+          <p>“Københavnerbilleder er en grundig introduktion til at skyde billeder med retro-kant. Hvad enten du har arbejdet med foto siden 135-filmen kom på markedet, du kun har skudt digitalt eller er helt nybegynder, er der masser af tips og tricks i bogen.”</p>
+          <strong>Hanne Hovgaard</strong>
+          <span>Berlingeren</span>
+        </article>
+
+        <article class="review">
+          <div class="stars">★★★★☆</div>
+          <p>“Teksten er underholdende, og billederne er sku’ flotte. Hvad mere skal man sige om en fotobog?”</p>
+          <strong>Kim Kloggaard</strong>
+          <span>Fotojournalen.dk</span>
+        </article>
+
+        <article class="review">
+          <div class="stars">★★★★★★</div>
+          <p>“Sten Simons kan det der – og han bliver bedre og bedre. Stens tredje fotobog er klart den bedste – her er han for alvor i sit rette element.”</p>
+          <strong>Volmer Hansen</strong>
+          <span>Lukkertiden.dk</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- CHAPTERS -->
+    <section class="chapters section-pad" id="kapitler">
+      <div class="section-heading">
+        <p class="section-kicker"></p>
+        <h2>Bogens kapitler</h2>
+      </div>
+
+      <div class="chapter-grid">
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 1 – Intro til street foto</span><span>+</span></button>
+          <div class="chapter-content"><p>Hvad er street foto? Det handler i bund og grund om at skyde byens liv og byens geometri (urban geometry). I dette kapitel får du en grundig intro til hvad street foto er og et overblik over nogen af de kendte street-fotografer. Alt krydret med en masse gode eksempler på street fotos.</p></div>
+        </article>
+
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 2 – Om at skyde street</span><span>+</span></button>
+          <div class="chapter-content"><p>Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud på gaderne og prøve det! I dette kapitel får du en teknisk indføring i hvordan du bedst skyder street. Uanset om du er begynder eller professionel, er der mange gode tekniske tips og tricks til street-skyderiet.</p></div>
+        </article>
+
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 3 – Om at finde det rette motiv</span><span>+</span></button>
+          <div class="chapter-content"><p>Indimellem er man heldig, andre gange kommer man hjem helt uden gode motiver. Med et par tips og tricks til at finde de rette motiver, stiger chancen gevaldigt for at fange de gode motiver.</p></div>
+        </article>
+
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 4 – Digital street foto</span><span>+</span></button>
+          <div class="chapter-content"><p>De fleste af os skyder oftest digitalt fordi det er billigere og nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til digital street foto. I dette kapitel får du en række tips og tricks til digital street-foto.</p></div>
+        </article>
+
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 5 – Analog street foto</span><span>+</span></button>
+          <div class="chapter-content"><p>Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt end digital. Det signalerer entusiasme. Nogle teknikker og fremgangsmåder egner sig bedst til analog street foto. I dette kapitel får du en række tips og tricks til analog street-foto.</p></div>
+        </article>
+
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 6 – Om at skyde sort/hvid</span><span>+</span></button>
+          <div class="chapter-content"><p>Alle street-fotografer skyder sort/hvid nu og da. Nogen altid. Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad adskiller sort/hvid fra farvefotografering? Her får du en række tips og tricks til sort/hvid fotografering.</p></div>
+        </article>
+
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 7 – Kreative teknikker</span><span>+</span></button>
+          <div class="chapter-content"><p>Dobbelteksponeringer, ICM (intentional camera moves), smadrede objektiver, gamle filmruller og alle mulige andre, spændende kreative teknikker kan løfte dine fotografier fra at være kedelige dokumentationer af hverdagen til at blive vilde kunststykker. Så dyk ned i dette kapitel om eksperimenterende teknikker!</p></div>
+        </article>
+
+        <article class="chapter">
+          <button class="chapter-toggle"><span>Kapitel 8 – Kom helt tæt på!</span><span>+</span></button>
+          <div class="chapter-content"><p>Street foto handler om at fotografere livet på gaden – men tør du at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så godt øve dig, for det er det der vil gøre dig til en bedre street-fotograf…</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- AUTHOR -->
+    <section class="author-section section-pad" id="forfatteren">
+      <div class="author-image">
+        <img src="images/lomo-smena-15.jpg" alt="Sten Simons">
+      </div>
+      <div class="author-copy">
+        <p class="section-kicker">FORFATTEREN</p>
+        <h2>Sten Simons</h2>
+        <p>
+          Sten Simons har en lang foto-karriere bag sig. Det hele startede i 00’erne, da han gik rundt i Pisserenden
+          for at fotografere ungdommens forfald. Det ledte til en række udstillinger, og blev senere til hans først
+          fotobog “Ungdomsdruk - pinlige billeder fra nattelivet.”
+        </p>
+        <p>
+          Derefter tog karrieren fart: Han blev fotojournalist og dokumenterede en masse dagligdagsstof fra Amager
+          på dagbladet “Amagerkaneren.” Sideløbende begyndte han at undervise i foto, og har skrevet et utal af bøger,
+          herunder bestsellerne <em>Scener fra S-toget</em>, <em>Brun mad - en visuel odysse</em>, og lærebogen
+          <em>Fotografering for evnesvage</em>.
+        </p>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery-section section-pad">
+      <div class="section-heading">
+        <p class="section-kicker"></p>
+        <h2>Billeder fra bogen</h2>
+      </div>
+
+      <div class="gallery">
+        <img src="images/_6090016.jpeg" alt="Streetfoto fra bogen">
+        <img src="images/_6090022.jpeg" alt="Streetfoto fra bogen">
+        <img src="images/0008.jpg" alt="Streetfoto fra bogen">
+        <img src="images/agfa-genanvendeligt-kamera-35mm-5.jpg" alt="Streetfoto fra bogen">
+        <img src="images/agfa-genanvendeligt-kamera-35mm-8.jpg" alt="Streetfoto fra bogen">
+        <img src="images/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="Streetfoto fra bogen">
+        <img src="images/agfa-genanvendeligt-kamera-35mm-film-2-5.jpg" alt="Streetfoto fra bogen">
+        <img src="images/agfa-genanvendeligt-kamera-35mm-film-2-7.jpg" alt="Streetfoto fra bogen">
+        <img src="images/amarmionen-med-et-agfa-le-box-3.jpg" alt="Streetfoto fra bogen">
+        <img src="images/amarmionen-med-et-agfa-le-box-11.jpg" alt="Streetfoto fra bogen">
+        <img src="images/amarmionen-med-et-agfa-le-box-12.jpg" alt="Streetfoto fra bogen">
+        <img src="images/anamorfiske-landskaber-amager-faelled-4.jpg" alt="Streetfoto fra bogen">
+        <img src="images/foraar-med-et-agfa-le-box-2021-17.jpg" alt="Streetfoto fra bogen">
+        <img src="images/foraar-med-et-agfa-lebox-2-20.jpg" alt="Streetfoto fra bogen">
+        <img src="images/kbh-by-night-3.jpg" alt="Streetfoto fra bogen">
+        <img src="images/lomo-smena-15.jpg" alt="Streetfoto fra bogen">
+        <img src="images/lomo-smena-17.jpg" alt="Streetfoto fra bogen">
+        <img src="images/lomo-smena-20.jpg" alt="Streetfoto fra bogen">
+        <img src="images/nikkormat-ft2-orestad-c-6.jpg" alt="Streetfoto fra bogen">
+        <img src="images/nikkormat-ft2-remiseparken-2.jpg" alt="Streetfoto fra bogen">
+        <img src="images/nikkormat-ft2-remiseparken-7.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110-8.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110-12.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110-14.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110-16.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110-17.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110-19.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110-24.jpg" alt="Streetfoto fra bogen">
+        <img src="images/orestad-til-islands-brygge-pentax-auto-110.jpg" alt="Streetfoto fra bogen">
+        <img src="images/pinhole-objektiver-ved-eghjorten-3.jpg" alt="Streetfoto fra bogen">
+        <img src="images/tyk-taage-i-orestad.jpg" alt="Streetfoto fra bogen">
+        <img src="images/vinter-2021-med-lomo-smena-6.jpg" alt="Streetfoto fra bogen">
+        <img src="images/vinter-2021-med-lomo-smena-17.jpg" alt="Streetfoto fra bogen">
+      </div>
+    </section>
+
+    <!-- BUY -->
+    <section class="buy-section section-pad" id="koeb">
+      <div class="buy-book">
+        <img src="images/vinter-2021-med-lomo-smena-17.jpg" alt="Københavnerbilleder bog">
+      </div>
+      <div class="buy-copy">
+        <p class="section-kicker"></p>
+        <h2>Køb bogen</h2>
+        <p>Bogen er til salg i alle de store boghandler.</p>
+        <p>Lige nu kan du få <strong>10% online rabat</strong> ved at købe den i William Dams boghandel. Brug rabatkoden <strong>koebenhavnerbilleder</strong>.</p>
+        <a class="button" href="#" onclick="event.preventDefault(); alert('Her kan du indsætte linket til William Dams boghandel.');">Køb bogen</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lavet med masser af hårdt arbejde af Sten Simons <span class="hero-icon">✦</span></p>
+    <p>Copyright 2025 Sten Simons &amp; forlaget Mellem Linjerne</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
